@@ -6,7 +6,6 @@
     "oauth",
     "oauth2"
   ],
-  "homepage": "https://symfonycasts.com",
   "license": "MIT",
   "authors": [
     {
@@ -25,7 +24,7 @@
   "require-dev": {
     "league/oauth2-facebook": "^1.1|^2.0",
     "symfony/phpunit-bridge": "^7.0",
-    "symfony/security-guard": "^5.4",
+    "symfony/security-guard": "^6.0",
     "symfony/yaml": "^7.0"
   },
   "autoload": {
