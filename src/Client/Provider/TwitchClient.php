@@ -11,8 +11,8 @@
 namespace Onlishop\OAuth2ClientBundle\Client\Provider;
 
 use Depotwarehouse\OAuth2\Client\Twitch\Entity\TwitchUser;
-use Onlishop\OAuth2ClientBundle\Client\OAuth2Client;
 use League\OAuth2\Client\Token\AccessToken;
+use Onlishop\OAuth2ClientBundle\Client\OAuth2Client;
 
 class TwitchClient extends OAuth2Client
 {

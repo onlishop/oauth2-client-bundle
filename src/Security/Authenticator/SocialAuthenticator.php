@@ -10,6 +10,8 @@
 
 namespace Onlishop\OAuth2ClientBundle\Security\Authenticator;
 
+use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
+use League\OAuth2\Client\Token\AccessToken;
 use Onlishop\OAuth2ClientBundle\Client\OAuth2ClientInterface;
 use Onlishop\OAuth2ClientBundle\Exception\InvalidStateException;
 use Onlishop\OAuth2ClientBundle\Exception\MissingAuthorizationCodeException;
@@ -19,8 +21,6 @@ use Onlishop\OAuth2ClientBundle\Security\Exception\NoAuthCodeAuthenticationExcep
 use Onlishop\OAuth2ClientBundle\Security\Helper\FinishRegistrationBehavior;
 use Onlishop\OAuth2ClientBundle\Security\Helper\PreviousUrlHelper;
 use Onlishop\OAuth2ClientBundle\Security\Helper\SaveAuthFailureMessage;
-use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
-use League\OAuth2\Client\Token\AccessToken;
 use Symfony\Component\Security\Core\User\UserInterface;
 use Symfony\Component\Security\Guard\AbstractGuardAuthenticator;
 

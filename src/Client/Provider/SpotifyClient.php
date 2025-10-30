@@ -11,9 +11,9 @@
 namespace Onlishop\OAuth2ClientBundle\Client\Provider;
 
 use Kerox\OAuth2\Client\Provider\SpotifyResourceOwner;
-use Onlishop\OAuth2ClientBundle\Client\OAuth2Client;
 use League\OAuth2\Client\Provider\ResourceOwnerInterface;
 use League\OAuth2\Client\Token\AccessToken;
+use Onlishop\OAuth2ClientBundle\Client\OAuth2Client;
 
 class SpotifyClient extends OAuth2Client
 {

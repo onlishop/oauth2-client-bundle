@@ -11,8 +11,8 @@
 namespace Onlishop\OAuth2ClientBundle\Client\Provider;
 
 use AlexMasterov\OAuth2\Client\Provider\HeadHunterResourceOwner;
-use Onlishop\OAuth2ClientBundle\Client\OAuth2Client;
 use League\OAuth2\Client\Token\AccessToken;
+use Onlishop\OAuth2ClientBundle\Client\OAuth2Client;
 
 class HeadHunterClient extends OAuth2Client
 {

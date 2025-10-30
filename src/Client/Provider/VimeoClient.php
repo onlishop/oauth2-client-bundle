@@ -10,8 +10,8 @@
 
 namespace Onlishop\OAuth2ClientBundle\Client\Provider;
 
-use Onlishop\OAuth2ClientBundle\Client\OAuth2Client;
 use League\OAuth2\Client\Token\AccessToken;
+use Onlishop\OAuth2ClientBundle\Client\OAuth2Client;
 use Saf33r\OAuth2\Client\Provider\VimeoResourceOwner;
 
 class VimeoClient extends OAuth2Client

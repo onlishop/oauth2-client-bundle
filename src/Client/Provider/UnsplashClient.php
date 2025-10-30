@@ -10,8 +10,8 @@
 
 namespace Onlishop\OAuth2ClientBundle\Client\Provider;
 
-use Onlishop\OAuth2ClientBundle\Client\OAuth2Client;
 use League\OAuth2\Client\Token\AccessToken;
+use Onlishop\OAuth2ClientBundle\Client\OAuth2Client;
 use Unsplash\OAuth2\Client\Provide\UnsplashResourceOwner;
 
 class UnsplashClient extends OAuth2Client

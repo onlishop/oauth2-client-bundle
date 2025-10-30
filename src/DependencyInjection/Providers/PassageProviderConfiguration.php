@@ -12,8 +12,8 @@ declare(strict_types=1);
 
 namespace Onlishop\OAuth2ClientBundle\DependencyInjection\Providers;
 
-use Onlishop\OAuth2ClientBundle\Client\Provider\PassageClient;
 use League\OAuth2\Client\Provider\Passage;
+use Onlishop\OAuth2ClientBundle\Client\Provider\PassageClient;
 use Symfony\Component\Config\Definition\Builder\NodeBuilder;
 
 class PassageProviderConfiguration implements ProviderConfiguratorInterface

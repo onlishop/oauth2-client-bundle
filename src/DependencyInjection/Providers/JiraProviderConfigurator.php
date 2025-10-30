@@ -10,8 +10,8 @@
 
 namespace Onlishop\OAuth2ClientBundle\DependencyInjection\Providers;
 
-use Onlishop\OAuth2ClientBundle\Client\Provider\JiraClient;
 use Mrjoops\OAuth2\Client\Provider\Jira;
+use Onlishop\OAuth2ClientBundle\Client\Provider\JiraClient;
 use Symfony\Component\Config\Definition\Builder\NodeBuilder;
 
 class JiraProviderConfigurator implements ProviderConfiguratorInterface

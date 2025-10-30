@@ -11,8 +11,8 @@
 namespace Onlishop\OAuth2ClientBundle\Client\Provider;
 
 use AdamPaterson\OAuth2\Client\Provider\SlackResourceOwner;
-use Onlishop\OAuth2ClientBundle\Client\OAuth2Client;
 use League\OAuth2\Client\Token\AccessToken;
+use Onlishop\OAuth2ClientBundle\Client\OAuth2Client;
 
 class SlackClient extends OAuth2Client
 {

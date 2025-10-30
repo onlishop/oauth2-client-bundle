@@ -11,8 +11,8 @@
 namespace Onlishop\OAuth2ClientBundle\Client\Provider;
 
 use Evelabs\OAuth2\Client\Provider\EveOnlineResourceOwner;
-use Onlishop\OAuth2ClientBundle\Client\OAuth2Client;
 use League\OAuth2\Client\Token\AccessToken;
+use Onlishop\OAuth2ClientBundle\Client\OAuth2Client;
 
 class EveOnlineClient extends OAuth2Client
 {

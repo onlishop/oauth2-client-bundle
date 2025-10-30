@@ -10,9 +10,9 @@
 
 namespace Onlishop\OAuth2ClientBundle\Client\Provider;
 
-use Onlishop\OAuth2ClientBundle\Client\OAuth2Client;
 use Koalati\OAuth2\Client\Provider\WebflowResourceOwner;
 use League\OAuth2\Client\Token\AccessToken;
+use Onlishop\OAuth2ClientBundle\Client\OAuth2Client;
 
 class WebflowClient extends OAuth2Client
 {

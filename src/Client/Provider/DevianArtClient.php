@@ -10,8 +10,8 @@
 
 namespace Onlishop\OAuth2ClientBundle\Client\Provider;
 
-use Onlishop\OAuth2ClientBundle\Client\OAuth2Client;
 use League\OAuth2\Client\Token\AccessToken;
+use Onlishop\OAuth2ClientBundle\Client\OAuth2Client;
 use SeinopSys\OAuth2\Client\Provider\DeviantArtResourceOwner;
 
 class DevianArtClient extends OAuth2Client

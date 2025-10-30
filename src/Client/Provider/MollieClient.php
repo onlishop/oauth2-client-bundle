@@ -10,9 +10,9 @@
 
 namespace Onlishop\OAuth2ClientBundle\Client\Provider;
 
-use Onlishop\OAuth2ClientBundle\Client\OAuth2Client;
 use League\OAuth2\Client\Token\AccessToken;
 use Mollie\OAuth2\Client\Provider\MollieResourceOwner;
+use Onlishop\OAuth2ClientBundle\Client\OAuth2Client;
 
 class MollieClient extends OAuth2Client
 {

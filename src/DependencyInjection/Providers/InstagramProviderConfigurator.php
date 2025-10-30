@@ -10,8 +10,8 @@
 
 namespace Onlishop\OAuth2ClientBundle\DependencyInjection\Providers;
 
-use Onlishop\OAuth2ClientBundle\Client\Provider\InstagramClient;
 use League\OAuth2\Client\Provider\Instagram;
+use Onlishop\OAuth2ClientBundle\Client\Provider\InstagramClient;
 use Symfony\Component\Config\Definition\Builder\NodeBuilder;
 
 class InstagramProviderConfigurator implements ProviderConfiguratorInterface

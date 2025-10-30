@@ -10,9 +10,9 @@
 
 namespace Onlishop\OAuth2ClientBundle\Client\Provider;
 
-use Onlishop\OAuth2ClientBundle\Client\OAuth2Client;
 use League\OAuth2\Client\Token\AccessToken;
 use Luchianenco\OAuth2\Client\Provider\AmazonResourceOwner;
+use Onlishop\OAuth2ClientBundle\Client\OAuth2Client;
 
 class AmazonClient extends OAuth2Client
 {

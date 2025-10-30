@@ -10,8 +10,8 @@
 
 namespace Onlishop\OAuth2ClientBundle\DependencyInjection\Providers;
 
-use Onlishop\OAuth2ClientBundle\Client\Provider\GeocachingClient;
 use League\OAuth2\Client\Provider\Geocaching;
+use Onlishop\OAuth2ClientBundle\Client\Provider\GeocachingClient;
 use Symfony\Component\Config\Definition\Builder\NodeBuilder;
 
 class GeocachingProviderConfigurator implements ProviderConfiguratorInterface

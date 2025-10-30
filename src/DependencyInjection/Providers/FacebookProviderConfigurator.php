@@ -10,8 +10,8 @@
 
 namespace Onlishop\OAuth2ClientBundle\DependencyInjection\Providers;
 
-use Onlishop\OAuth2ClientBundle\Client\Provider\FacebookClient;
 use League\OAuth2\Client\Provider\Facebook;
+use Onlishop\OAuth2ClientBundle\Client\Provider\FacebookClient;
 use Symfony\Component\Config\Definition\Builder\NodeBuilder;
 
 class FacebookProviderConfigurator implements ProviderConfiguratorInterface

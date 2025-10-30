@@ -10,8 +10,8 @@
 
 namespace Onlishop\OAuth2ClientBundle\DependencyInjection\Providers;
 
-use Onlishop\OAuth2ClientBundle\Client\Provider\WebflowClient;
 use Koalati\OAuth2\Client\Provider\Webflow;
+use Onlishop\OAuth2ClientBundle\Client\Provider\WebflowClient;
 use Symfony\Component\Config\Definition\Builder\NodeBuilder;
 
 class WebflowProviderConfigurator implements ProviderConfiguratorInterface

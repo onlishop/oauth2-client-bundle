@@ -44,7 +44,7 @@ interface OAuth2ClientInterface
      *
      * @throws \Onlishop\OAuth2ClientBundle\Exception\InvalidStateException
      * @throws \Onlishop\OAuth2ClientBundle\Exception\MissingAuthorizationCodeException
-     * @throws \League\OAuth2\Client\Provider\Exception\IdentityProviderException   If token cannot be fetched
+     * @throws \League\OAuth2\Client\Provider\Exception\IdentityProviderException       If token cannot be fetched
      */
     public function getAccessToken(array $options = []);
 

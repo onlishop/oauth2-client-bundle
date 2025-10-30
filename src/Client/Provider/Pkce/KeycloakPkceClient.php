@@ -10,8 +10,8 @@
 
 namespace Onlishop\OAuth2ClientBundle\Client\Provider\Pkce;
 
-use Onlishop\OAuth2ClientBundle\Client\OAuth2PKCEClient;
 use League\OAuth2\Client\Token\AccessToken;
+use Onlishop\OAuth2ClientBundle\Client\OAuth2PKCEClient;
 use Stevenmaguire\OAuth2\Client\Provider\KeycloakResourceOwner;
 
 class KeycloakPkceClient extends OAuth2PKCEClient
