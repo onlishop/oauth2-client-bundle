@@ -15,17 +15,17 @@
   ],
   "require": {
     "php": ">=8.1",
-    "symfony/framework-bundle": "^7.0",
-    "symfony/dependency-injection": "^7.0",
-    "symfony/routing": "^7.0",
-    "symfony/http-foundation": "^7.0",
+    "symfony/framework-bundle": "^5.4|^6.0|^7.0",
+    "symfony/dependency-injection": "^5.4|^6.0|^7.0",
+    "symfony/routing": "^5.4|^6.0|^7.0",
+    "symfony/http-foundation": "^5.4|^6.0|^7.0",
     "league/oauth2-client": "^2.0"
   },
   "require-dev": {
     "league/oauth2-facebook": "^1.1|^2.0",
-    "symfony/phpunit-bridge": "^7.0",
-    "symfony/security-guard": "^6.0",
-    "symfony/yaml": "^7.0"
+    "symfony/phpunit-bridge": "^5.4|^6.0|^7.0",
+    "symfony/security-guard": "^5.4",
+    "symfony/yaml": "^5.4|^6.0|^7.0"
   },
   "autoload": {
     "psr-4": {
