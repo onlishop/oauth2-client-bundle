@@ -11,7 +11,7 @@
 namespace Onlishop\OAuth2ClientBundle\Tests\app;
 
 use GuzzleHttp\Client;
-use Onlishop\OAuth2ClientBundle\KnpUOAuth2ClientBundle;
+use Onlishop\OAuth2ClientBundle\OAuth2ClientBundle;
 use Symfony\Bundle\FrameworkBundle\FrameworkBundle;
 use Symfony\Component\Config\Loader\LoaderInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -24,7 +24,7 @@ class TestKernel extends Kernel
     {
         return [
             new FrameworkBundle(),
-            new KnpUOAuth2ClientBundle(),
+            new OAuth2ClientBundle(),
         ];
     }
 

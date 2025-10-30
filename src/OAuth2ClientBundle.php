@@ -14,7 +14,7 @@ use Onlishop\OAuth2ClientBundle\DependencyInjection\KnpUOAuth2ClientExtension;
 use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class KnpUOAuth2ClientBundle extends Bundle
+class OAuth2ClientBundle extends Bundle
 {
     /**
      * Overridden to allow for the custom extension alias.

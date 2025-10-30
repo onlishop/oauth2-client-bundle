@@ -11,14 +11,14 @@
 namespace Onlishop\OAuth2ClientBundle\Tests;
 
 use Onlishop\OAuth2ClientBundle\DependencyInjection\KnpUOAuth2ClientExtension;
-use Onlishop\OAuth2ClientBundle\KnpUOAuth2ClientBundle;
+use Onlishop\OAuth2ClientBundle\OAuth2ClientBundle;
 use PHPUnit\Framework\TestCase;
 
-class KnpUOAuth2ClientBundleTest extends TestCase
+class OAuth2ClientBundleTest extends TestCase
 {
     public function testShouldReturnNewContainerExtension()
     {
-        $testBundle = new KnpUOAuth2ClientBundle();
+        $testBundle = new OAuth2ClientBundle();
 
         $result = $testBundle->getContainerExtension();
         $this->assertInstanceOf(KnpUOAuth2ClientExtension::class, $result);
